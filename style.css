@@ -1,0 +1,38 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: rgb(176, 226, 247);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 100px;
+}
+
+.grid {
+  width: 200px;
+  height: 200px;
+  display: flex;
+  flex-wrap: wrap;
+  border-style: solid;
+
+  background: pink;
+}
+
+.grid div {
+  width: 20px;
+  height: 20px;
+  border-right: 0.1px dotted gray;
+  border-bottom: 0.1px dotted gray;
+  box-sizing: border-box;
+}
+
+.snake {
+  background: blue;
+}
+
+.apple {
+  background: chartreuse;
+}

@@ -1,2 +1,2 @@
-# Snake-Game
-Snake game in JavaScript 🐍
+# Snake-Game 🐍
+Snake game in JavaScript

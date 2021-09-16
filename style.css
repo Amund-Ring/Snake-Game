@@ -14,6 +14,8 @@ body {
 .grid {
   width: 200px;
   height: 200px;
+  /* width: 400px;
+  height: 400px; */
   display: flex;
   flex-wrap: wrap;
   border-style: solid;
@@ -35,4 +37,8 @@ body {
 
 .apple {
   background: chartreuse;
+}
+
+.hidden {
+  visibility: hidden;
 }
